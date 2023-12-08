@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.response{
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: center;
+  background: var(--gray-gray-2, #F3F4F6);
+}
+
+.text-area{
+  display: flex;
+  padding: 0px 24px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+#textbox{
+  display: flex;
+  padding: 8px 56px 8px 12px;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 4px;
+  border: 1px solid var(--Border, #D9D9D9);
+  background: linear-gradient(180deg, rgba(31, 31, 32, 0.04) 0%, rgba(0, 0, 0, 0.00) 100%), #FFF;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.04);
+}
+
+
+
+.button{
+  display: flex;
+padding: 12px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 6px;
+background: var(--Primary-Color, #013760);
+color: var(--white, #FFFFFF);
+}
+
+nav {
+  width: 100%;
+}    
+.headerbar {
+display: flex;
+padding: 12px 24px;
+justify-content: space-between;
+align-items: center;
+align-self: stretch; 
+background: #E5E7EB; }
+
+.logo {
+color: var(--Primary-Color, #013760);
+/* Heading 4 */
+font-family: Avenir Next;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 114.286% */
+}
+
+.menu-main {
+display: flex;
+width: 1400px;
+align-items: center;
+gap: 24px;
+}
+
+.menu-group {
+  display: flex;
+align-items: flex-start;
+gap: 24px;
+}
+
+.menu-item {
+  display: flex;
+  padding: 0px 4px;
+  align-items: flex-start;
+  gap: 10px;
+
+}
+
+.menu-item:hover {
+  border-bottom: 2px solid var(--Secondary-Color, #80379B);
+}
+
+.menu-item-label {
+  color: var(--Primary-Text-Color, #1A1E22);
+
+  /* Body Medium/Medium */
+  font-family: Avenir Next;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+
+}
